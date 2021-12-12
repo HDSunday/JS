@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <script>
+      'use strict'
+      var day = + prompt('Введи номер дня недели');
+      if (day > 0 && day < 6) {
+         alert(day + ' - будний день');
+      } else if (day == 6 || day == 7) {
+         alert(day + ' - выходной день');
+      } else {
+         alert('Номер дня введен некорректно!');
+      }
+   </script>
+
+</body>
+
+</html>
